@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ 
+/* Header section starts*/
+header{
+      margin-bottom: 20px;
+}
+.container-head{
+       height: auto;
+       background-color: #032de9;
+       display: flex;
+       justify-content: space-between;
+}
+
+.idea{
+       display: flex;
+       margin-left: 300px;
+       margin-top: 20px;
+}
+
+.idea img{
+       padding: 0 20px;
+       height: 50px;
+}
+.idea h3{
+       font-size: 1.5rem;
+       color: aliceblue;
+      justify-content: center;
+}
+
+.nav-menu ul{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 200px;
+}
+.nav-menu ul li{
+       padding: 20px;
+       list-style: none;
+       color: white;
+       font-size: 18px;
+       margin-bottom: -30px;
+       
+      
+}
+.nav-menu ul img{
+       height: 45px;
+       margin-top: 30px;
+       
+}
+/* Header section ends*/
+
+
+
+
+
+
+
+/* common starts*/
+
+.body{
+       font-family: 'Poppins', sans-serif;
+}
+main{
+       padding: 0 50px;
+       margin: 0 auto;
+       width: 810px;  
+       justify-content: center;
+       background-color: #f3f1f1;
+}
+.container{
+       margin: 0 auto;
+       display: grid;
+       padding: 30px;
+
+}
+ /* common ends*/
+.section-title{
+       font-size: 26px;
+       color: #562EFF;
+}
+.top-players{
+      /* max-width: 870px;
+      margin-left: 70px; */
+}
+.players{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-row-gap: 30px;
+}
+.player{
+       display: flex;
+       align-items: center;
+}
+.player img{
+       width: 56px;
+       height: 56px;
+}
+
+.section-name{
+       font-size: 14px;
+       margin-left: 10px;
+}
+/* top section ends */
+.section-title-2{
+       color: #562EFF;
+       margin-left: 30px;
+}
+.blogs{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap: 20px;
+       padding: 0px 30px;
+}
+.blog{
+       display: flex;
+       margin-bottom:0px;
+}
+.blog img{
+       width: 140px;
+       height: 90px;
+}
+.section-name h3{
+       font-size: 1.2rem;
+       padding-right: 50px;
+       margin: 0 -1px;
+}
+.section-name h4{
+       font-size: 1rem;
+       
+}
+.section-name h4 span{
+  color: #857373;
+}
+
+/* latese Course starts */
+footer{
+       margin-top: 25px;
+       
+}
+.section-title-coures{
+       color: #562EFF;
+       font-size: 1.8rem;
+       margin-left: 50px;
+}
+.lates-course{
+       max-width: 870px;
+       background-color: #f3f1f1;
+       margin: 0 auto;
+       padding:20px;
+}
+
+
+.lates-course .course{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       padding: 0 50px;
+}
+.lates-names h3{
+       padding:0 20px;
+}
+.lates-names h5{
+       color: rgb(154, 28, 6);
+       font-size: 12px;
+       padding:0 20px;
+}
+
+.icons{
+       display: flex;
+}
+
+.star{
+       margin-left: 18px;
+}
+.icons .number{
+       margin-left: 10px;
+}
+
+
+.clock{
+       padding: 0 20px;
+       background-color: rgb(232, 233, 233);
+       border-radius: 10px;
+       margin-left: 10px;
+       color: red;
+       font-weight: 600;
+       font-size: 12px;
+
+}
+
+.lates img{
+       width: 200px;
+       height: 90px;
+}
+
+.icons img{
+       width: 15px;
+       height: 15px;
+}
+
+.clock{
+       display: flex;
+}
+.div-e{
+       margin-top: 1px;
+       display: flex;
+       justify-content: space-evenly;
+}
